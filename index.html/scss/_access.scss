@@ -1,0 +1,49 @@
+.Access {
+  height: 757px;
+  background-color: #a193861f;
+}
+
+.a-title {
+  font-size: 18px;
+  font-weight: initial;
+  padding: 261px 0 0 107px;
+  color: #707070;
+  &:after {
+    display: block;
+    content: "";
+    width: 90px;
+    border-bottom: 1px solid #707070;
+    transform: translate(80px, -7px);
+  }
+}
+
+.a-wrap {
+  height: 400px;
+  background-color: #d0c5ba;
+  display: flex;
+}
+
+.a-text {
+  width: 507px;
+  padding: 101px 104px;
+  h1 {
+    font-size: 24px;
+    color: #00000038;
+  }
+}
+
+.a-img {
+  height: 400px;
+  width: 775px;
+}
+
+.a-sorce {
+  width: 207px;
+  height: 138px;
+  padding-top: 30px;
+  color: #ffffff;
+  font-size: 16px;
+  p {
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,71 @@
+.concept {
+    width: 100%;
+    height: 970px;
+}
+
+.color {
+    background-color: #A193861F;
+    height: 407px;
+    
+
+}
+
+.c-text {
+    padding: 256px 0px 0px 180px;
+    font-size: 18px;
+    font-style: normal;
+    display: flex;
+    font-weight: inherit;
+    color: #707070;
+    &:after {
+        display: block;
+        content: "";
+        width: 80px;
+        border-bottom: 1px solid black;
+        transform: translate(50%,-40%);
+    }
+}
+
+.color-2 {
+    background-color: #A1938689;
+    height: 560px;
+    position: relative;
+}
+
+.concept-img {
+     display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 45%; left: 13%;
+}
+
+.c-img{
+    background-image: url(../img/andrew-neel-f480QIEvwGI-unsplash.png);
+    width: 675px;
+    height: 413px;
+    background-size: cover;
+    margin-right: 11px;
+}
+.c-img2 {
+        background-image: url(../img/joel-mott-mNYL0surXh8-unsplash@2x.png);
+        width: 391px;
+        height: 413px;
+        background-size: cover;
+}
+.c-logo {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: "ヒラギノ明朝 Pro";
+    font-weight: inherit;
+    width: 445px;
+}
+.color-text {
+    padding: 389px 0 0 174px;
+    display: flex;
+    margin-left: 50px;
+    p {
+        transform: translate(70%,0);
+        color: $color1;
+    }
+}
+
